@@ -2,6 +2,6 @@
   hooks:
     - id: lighthouse-audit
       name: Lighthouse Audit
-      entry: node run-lighthouse.js
-      language: system
-      files: \.(js|jsx|ts|tsx)$  # Limit this to relevant file types
+      entry: node run-lighthouse.js  # Your script to run Lighthouse
+      language: system  # Runs the script as a system command
+
