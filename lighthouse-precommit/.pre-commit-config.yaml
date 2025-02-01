@@ -1,0 +1,7 @@
+- repo: local
+  hooks:
+    - id: lighthouse-audit
+      name: Lighthouse Audit
+      entry: node run-lighthouse.js
+      language: system
+      files: \.(js|jsx|ts|tsx)$  # Limit this to relevant file types
