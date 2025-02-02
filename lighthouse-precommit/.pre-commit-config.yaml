@@ -4,4 +4,4 @@
       name: Lighthouse Audit
       entry: node run-lighthouse.js  # Your script to run Lighthouse
       language: system  # Runs the script as a system command
-
+      files: \.(js|jsx|ts|tsx)$
